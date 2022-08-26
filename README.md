@@ -19,3 +19,6 @@ Utilizei o efieto parallex na imagem de fundo e uma barra de navegação fixada.
 Implementação do rodapé e um divisor em cinza para ficar mais visivel a separação.
 
 ![Screenshot_20220826_111609](https://user-images.githubusercontent.com/73563601/186923998-42fb39f4-3abd-4006-8e9d-9a8cf09cda5c.png)
+
+<b>Update 1.4</b>
+Proximo update ~ pagina completamente responsiva.
