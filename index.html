@@ -4,38 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/Logotipo.ico">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/Logotipo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <title>SmarTec</title>
 </head>
 <body>
-    <header>
-        <nav class="container-nav">
-
-            <a class="logo" id="logo" href="index.html"><b>SmarTec</b></a>
-
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3 "></div>
-            </div>
-
-            <ul id="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Support</a></li>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SmarTec</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Suport</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
 
-    <main>
-    
-    </main>
-    <script src="mobile-navbar.js"></script>
+      <div id="s22-image"></div>
+
+        <div class="display-about">
+          <h3 class="text-center">The first Galaxy S with an integrated S Pen</h3>
+          <p class="text-center">AS Pen fits directly into Galaxy S for the first time. Take it from the bottom of the phone to write, draw or control your smartphone. Improved latency in Samsung Notes makes every swipe of the pen as natural as writing on paper — and you can convert ideas you hurriedly write into readable text.</p>
+        </div>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2>The fastest processor on the Galaxy</h2>
+            <p>The power of the 4nm processor is present in almost every aspect of your phone, resulting in extraordinary night photos, incredibly clear photos whenever you want and a gaming experience optimized to lead you to victory.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>Director's Vision</h2>
+            <p>Utilize the complete quad camera system, recording from multiple angles and the selfie and rear cameras all at once. Then enjoy your movie or save the originals for a director's cut.</p>
+          </div>
+        </div>
+      </div>
+      <div class="min-space"></div>
+      <div id="s22-battery"></div>
+      <div class="display-about">
+        <h3 class="text-center">Enjoy All Day And Night Too</h3>
+        <p class="text-center">Enhanced AI takes 5000mAh (default) of power overnight, intelligently adapting to the way you use your phone. In short: it saves power for when you need it most, for a battery that lasts longer than your day.
+          Estimated based on the usage profile of an average/common user. Independently evaluated by Strategy Analytics December 8-20, 2021 in the US and UK with SM-S901, SM-S906 and SM-S908 pre-release versions under standardized conditions using 5G Sub6 networks (NOT tested for 5G mmWave network). Actual battery life will vary based on network environment, features and applications used, frequency of calls and messages, number of charges, and many other factors.</p>
+      </div>
+      
+      <div class="divider"></div>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Product</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Support</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 SmarTec , Inc</p>
+          </footer>
+        </div>
 </body>
 </html>
